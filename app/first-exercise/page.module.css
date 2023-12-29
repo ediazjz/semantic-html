@@ -1,0 +1,54 @@
+.header {
+  background-color: teal;
+  color: white;
+}
+
+.header .navigation div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  list-style: none;
+}
+
+.navigation a,
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover,
+.sidebar a:hover {
+  color: OrangeRed;
+}
+
+.main_content {
+  display: flex;
+  gap: 2rem;
+}
+
+.article {
+  background-color: Gainsboro;
+  width: 83.333333%;
+  padding: 1.5rem;
+}
+
+.sidebar {
+  background-color: DarkSlateGray;
+  width: 16.666667%;
+  padding: 1.5rem;
+}
+
+.sidebar h3 {
+  color: white;
+}
+
+.sidebar div {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+  background-color: Black;
+  color: white;
+  padding: 1.5rem;
+}

@@ -1,0 +1,83 @@
+.header {
+  background-color: teal;
+  color: white;
+}
+.header {
+  text-align: center;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  list-style: none;
+}
+
+.nav a,
+.aside a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.aside a:hover {
+  color: OrangeRed;
+}
+
+.main {
+  display: flex;
+  gap: 2rem;
+}
+
+.film_review {
+  background-color: Gainsboro;
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.aside {
+  background-color: DarkSlateGray;
+  width: 16.666667%;
+  padding: 1.5rem;
+}
+.aside h3 {
+  color: white;
+}
+.aside ul {
+  list-style: none;
+}
+
+.widget {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+  background-color: Black;
+  color: white;
+}
+
+.user_review {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.user_review .footer {
+  font-size: 0.9rem;
+  background: white;
+  color: black;
+}
+.user_reviews h3 {
+  margin-top: 3rem;
+}
+
+.time {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.footer_staff {
+  font-style: italic;
+}
